@@ -984,7 +984,7 @@ body {
     }
 
     .responsive h3 {
-        text-align: start;
+        text-align-last: start !important;
     }
 
     .cylinder {
@@ -1008,6 +1008,14 @@ body {
 
     .hero-visual {
         display: none;
+    }
+
+    .admission-content .detail {
+        max-width: 400px !important;
+    }
+
+    .notify-user-avatar {
+        width: 24.75rem;
     }
 
     .container .icon {
